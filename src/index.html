@@ -15,43 +15,30 @@
       rel="stylesheet"
       href="style.css"
     />
-    <link
-      rel="stylesheet"
-      href="fonts.css"
-    />
   </head>
   <body>
-    <form
-      class="search search--big"
-      data-qa="big"
-    >
-      <input
-        type="text"
-        class="search__input"
-        data-qa="keypress"
-        placeholder="Try “Los Angeles”"
-      />
-      <img
-        src="./images/Search.svg"
-        alt="Search"
-        class="search__icon"
-      />
-    </form>
-
-    <form
-      class="search search--small"
-      data-qa="small"
-    >
-      <input
-        type="text"
-        class="search__input"
-        placeholder="Try “Los Angeles”"
-      />
-      <img
-        src="./images/Search.svg"
-        alt="Search"
-        class="search__icon"
-      />
-    </form>
+    <div class="container">
+      <form
+        class="search-bar search-bar--big"
+        data-qa="big"
+      >
+        <input
+          class="search-bar__input"
+          type="text"
+          data-qa="keypress"
+          placeholder="Try “Los Angeles“"
+        />
+      </form>
+      <form
+        class="search-bar search-bar--small"
+        data-qa="small"
+      >
+        <input
+          class="search-bar__input"
+          type="text"
+          placeholder="Try “Los Angeles“"
+        />
+      </form>
+    </div>
   </body>
 </html>
